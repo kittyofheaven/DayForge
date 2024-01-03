@@ -23,14 +23,7 @@ struct SplashScreenView: View {
                     
                     Spacer()
                     
-                    Text("DAY.FORGE")
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                        .font(.custom("PaytoneOne-Regular", size: 55))
-                    
-                    
-                    Text("Forge Your Path, Chronicle Your Journey Daily")
-                        .opacity(0.5)
-                        .font(.custom("Roboto-Regular", size: 16))
+                    HeadingView()
                     
                     
                     Spacer()

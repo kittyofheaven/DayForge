@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct DayForgeApp: App {
+    
+    init(){
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
             SplashScreenView()
         }
     }
 }
+
