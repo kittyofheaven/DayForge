@@ -14,6 +14,10 @@
 		2B3FD2212B453672003F3DC0 /* DayForgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD2202B453672003F3DC0 /* DayForgeTests.swift */; };
 		2B3FD22B2B453672003F3DC0 /* DayForgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD22A2B453672003F3DC0 /* DayForgeUITests.swift */; };
 		2B3FD22D2B453672003F3DC0 /* DayForgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD22C2B453672003F3DC0 /* DayForgeUITestsLaunchTests.swift */; };
+		2B3FD23C2B4536C8003F3DC0 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD23B2B4536C8003F3DC0 /* SplashScreenView.swift */; };
+		2B3FD23E2B45371F003F3DC0 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD23D2B45371F003F3DC0 /* SplashScreenViewModel.swift */; };
+		2B3FD2422B453F1F003F3DC0 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B3FD2412B453F1F003F3DC0 /* Roboto-Regular.ttf */; };
+		2B3FD2452B454216003F3DC0 /* PaytoneOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B3FD2442B454216003F3DC0 /* PaytoneOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,11 @@
 		2B3FD2262B453672003F3DC0 /* DayForgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayForgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3FD22A2B453672003F3DC0 /* DayForgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForgeUITests.swift; sourceTree = "<group>"; };
 		2B3FD22C2B453672003F3DC0 /* DayForgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B3FD23B2B4536C8003F3DC0 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		2B3FD23D2B45371F003F3DC0 /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
+		2B3FD2412B453F1F003F3DC0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		2B3FD2432B454010003F3DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2B3FD2442B454216003F3DC0 /* PaytoneOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PaytoneOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +103,10 @@
 		2B3FD20E2B453670003F3DC0 /* DayForge */ = {
 			isa = PBXGroup;
 			children = (
-				2B3FD20F2B453670003F3DC0 /* DayForgeApp.swift */,
-				2B3FD2112B453670003F3DC0 /* ContentView.swift */,
+				2B3FD2432B454010003F3DC0 /* Info.plist */,
+				2B3FD23F2B453EC1003F3DC0 /* Fonts */,
+				2B3FD23A2B4536AB003F3DC0 /* ViewModels */,
+				2B3FD2392B45369D003F3DC0 /* Views */,
 				2B3FD2132B453672003F3DC0 /* Assets.xcassets */,
 				2B3FD2152B453672003F3DC0 /* Preview Content */,
 			);
@@ -125,6 +136,33 @@
 				2B3FD22C2B453672003F3DC0 /* DayForgeUITestsLaunchTests.swift */,
 			);
 			path = DayForgeUITests;
+			sourceTree = "<group>";
+		};
+		2B3FD2392B45369D003F3DC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B3FD20F2B453670003F3DC0 /* DayForgeApp.swift */,
+				2B3FD23B2B4536C8003F3DC0 /* SplashScreenView.swift */,
+				2B3FD2112B453670003F3DC0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B3FD23A2B4536AB003F3DC0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B3FD23D2B45371F003F3DC0 /* SplashScreenViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2B3FD23F2B453EC1003F3DC0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2B3FD2442B454216003F3DC0 /* PaytoneOne-Regular.ttf */,
+				2B3FD2412B453F1F003F3DC0 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3FD2422B453F1F003F3DC0 /* Roboto-Regular.ttf in Resources */,
 				2B3FD2172B453672003F3DC0 /* Preview Assets.xcassets in Resources */,
 				2B3FD2142B453672003F3DC0 /* Assets.xcassets in Resources */,
+				2B3FD2452B454216003F3DC0 /* PaytoneOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +298,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B3FD2122B453670003F3DC0 /* ContentView.swift in Sources */,
+				2B3FD23E2B45371F003F3DC0 /* SplashScreenViewModel.swift in Sources */,
 				2B3FD2102B453670003F3DC0 /* DayForgeApp.swift in Sources */,
+				2B3FD23C2B4536C8003F3DC0 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +466,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DayForge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DayForge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +495,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DayForge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DayForge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
