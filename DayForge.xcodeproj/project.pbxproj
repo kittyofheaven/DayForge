@@ -31,6 +31,12 @@
 		2B3FD25F2B454962003F3DC0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD25E2B454962003F3DC0 /* Extensions.swift */; };
 		2B3FD2622B45B5D0003F3DC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B3FD2612B45B5D0003F3DC0 /* GoogleService-Info.plist */; };
 		2B3FD2642B45B9C7003F3DC0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD2632B45B9C7003F3DC0 /* HomeView.swift */; };
+		2B3FD2662B45C2B5003F3DC0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2B3FD2652B45C2B5003F3DC0 /* .gitignore */; };
+		2B3FD26C2B45CECB003F3DC0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD26B2B45CECB003F3DC0 /* MainView.swift */; };
+		2B3FD26E2B45CFAC003F3DC0 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD26D2B45CFAC003F3DC0 /* JournalView.swift */; };
+		2B3FD2702B45D083003F3DC0 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD26F2B45D083003F3DC0 /* QuizView.swift */; };
+		2B3FD2722B45D08D003F3DC0 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD2712B45D08D003F3DC0 /* ChartsView.swift */; };
+		2B3FD2742B45D098003F3DC0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD2732B45D098003F3DC0 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +83,12 @@
 		2B3FD25E2B454962003F3DC0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2B3FD2612B45B5D0003F3DC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B3FD2632B45B9C7003F3DC0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2B3FD2652B45C2B5003F3DC0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2B3FD26B2B45CECB003F3DC0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2B3FD26D2B45CFAC003F3DC0 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		2B3FD26F2B45D083003F3DC0 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		2B3FD2712B45D08D003F3DC0 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		2B3FD2732B45D098003F3DC0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,7 @@
 		2B3FD2032B453670003F3DC0 = {
 			isa = PBXGroup;
 			children = (
+				2B3FD2652B45C2B5003F3DC0 /* .gitignore */,
 				2B3FD20E2B453670003F3DC0 /* DayForge */,
 				2B3FD21F2B453672003F3DC0 /* DayForgeTests */,
 				2B3FD2292B453672003F3DC0 /* DayForgeUITests */,
@@ -175,6 +188,11 @@
 				2B3FD23B2B4536C8003F3DC0 /* SplashScreenView.swift */,
 				2B3FD2482B454773003F3DC0 /* HeadingView.swift */,
 				2B3FD2632B45B9C7003F3DC0 /* HomeView.swift */,
+				2B3FD26B2B45CECB003F3DC0 /* MainView.swift */,
+				2B3FD26D2B45CFAC003F3DC0 /* JournalView.swift */,
+				2B3FD26F2B45D083003F3DC0 /* QuizView.swift */,
+				2B3FD2712B45D08D003F3DC0 /* ChartsView.swift */,
+				2B3FD2732B45D098003F3DC0 /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -333,6 +351,7 @@
 				2B3FD2172B453672003F3DC0 /* Preview Assets.xcassets in Resources */,
 				2B3FD2622B45B5D0003F3DC0 /* GoogleService-Info.plist in Resources */,
 				2B3FD2142B453672003F3DC0 /* Assets.xcassets in Resources */,
+				2B3FD2662B45C2B5003F3DC0 /* .gitignore in Resources */,
 				2B3FD2452B454216003F3DC0 /* PaytoneOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,10 +382,15 @@
 				2B3FD24D2B454807003F3DC0 /* LoginView.swift in Sources */,
 				2B3FD2122B453670003F3DC0 /* ContentView.swift in Sources */,
 				2B3FD2492B454773003F3DC0 /* HeadingView.swift in Sources */,
+				2B3FD2722B45D08D003F3DC0 /* ChartsView.swift in Sources */,
 				2B3FD2552B454816003F3DC0 /* RegisterViewModel.swift in Sources */,
 				2B3FD23E2B45371F003F3DC0 /* SplashScreenViewModel.swift in Sources */,
 				2B3FD24F2B454807003F3DC0 /* RegisterView.swift in Sources */,
 				2B3FD2102B453670003F3DC0 /* DayForgeApp.swift in Sources */,
+				2B3FD26E2B45CFAC003F3DC0 /* JournalView.swift in Sources */,
+				2B3FD26C2B45CECB003F3DC0 /* MainView.swift in Sources */,
+				2B3FD2742B45D098003F3DC0 /* ProfileView.swift in Sources */,
+				2B3FD2702B45D083003F3DC0 /* QuizView.swift in Sources */,
 				2B3FD25F2B454962003F3DC0 /* Extensions.swift in Sources */,
 				2B3FD23C2B4536C8003F3DC0 /* SplashScreenView.swift in Sources */,
 				2B3FD2542B454816003F3DC0 /* LoginViewModel.swift in Sources */,

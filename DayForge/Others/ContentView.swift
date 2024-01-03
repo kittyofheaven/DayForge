@@ -17,7 +17,7 @@ struct ContentView: View {
         if userID.isEmpty {
             AuthView()
         } else {
-            HomeView()
+            MainView()
         }
         
         
