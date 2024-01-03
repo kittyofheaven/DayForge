@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B3FD2102B453670003F3DC0 /* DayForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD20F2B453670003F3DC0 /* DayForgeApp.swift */; };
+		2B3FD2122B453670003F3DC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD2112B453670003F3DC0 /* ContentView.swift */; };
+		2B3FD2142B453672003F3DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3FD2132B453672003F3DC0 /* Assets.xcassets */; };
+		2B3FD2172B453672003F3DC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3FD2162B453672003F3DC0 /* Preview Assets.xcassets */; };
+		2B3FD2212B453672003F3DC0 /* DayForgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD2202B453672003F3DC0 /* DayForgeTests.swift */; };
+		2B3FD22B2B453672003F3DC0 /* DayForgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD22A2B453672003F3DC0 /* DayForgeUITests.swift */; };
+		2B3FD22D2B453672003F3DC0 /* DayForgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD22C2B453672003F3DC0 /* DayForgeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B3FD21D2B453672003F3DC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B3FD2042B453670003F3DC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B3FD20B2B453670003F3DC0;
+			remoteInfo = DayForge;
+		};
+		2B3FD2272B453672003F3DC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B3FD2042B453670003F3DC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B3FD20B2B453670003F3DC0;
+			remoteInfo = DayForge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B3FD20C2B453670003F3DC0 /* DayForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3FD20F2B453670003F3DC0 /* DayForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForgeApp.swift; sourceTree = "<group>"; };
+		2B3FD2112B453670003F3DC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B3FD2132B453672003F3DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B3FD2162B453672003F3DC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B3FD21C2B453672003F3DC0 /* DayForgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayForgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3FD2202B453672003F3DC0 /* DayForgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForgeTests.swift; sourceTree = "<group>"; };
+		2B3FD2262B453672003F3DC0 /* DayForgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayForgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3FD22A2B453672003F3DC0 /* DayForgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForgeUITests.swift; sourceTree = "<group>"; };
+		2B3FD22C2B453672003F3DC0 /* DayForgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B3FD2092B453670003F3DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3FD2192B453672003F3DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3FD2232B453672003F3DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B3FD2032B453670003F3DC0 = {
+			isa = PBXGroup;
+			children = (
+				2B3FD20E2B453670003F3DC0 /* DayForge */,
+				2B3FD21F2B453672003F3DC0 /* DayForgeTests */,
+				2B3FD2292B453672003F3DC0 /* DayForgeUITests */,
+				2B3FD20D2B453670003F3DC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B3FD20D2B453670003F3DC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B3FD20C2B453670003F3DC0 /* DayForge.app */,
+				2B3FD21C2B453672003F3DC0 /* DayForgeTests.xctest */,
+				2B3FD2262B453672003F3DC0 /* DayForgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B3FD20E2B453670003F3DC0 /* DayForge */ = {
+			isa = PBXGroup;
+			children = (
+				2B3FD20F2B453670003F3DC0 /* DayForgeApp.swift */,
+				2B3FD2112B453670003F3DC0 /* ContentView.swift */,
+				2B3FD2132B453672003F3DC0 /* Assets.xcassets */,
+				2B3FD2152B453672003F3DC0 /* Preview Content */,
+			);
+			path = DayForge;
+			sourceTree = "<group>";
+		};
+		2B3FD2152B453672003F3DC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B3FD2162B453672003F3DC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B3FD21F2B453672003F3DC0 /* DayForgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B3FD2202B453672003F3DC0 /* DayForgeTests.swift */,
+			);
+			path = DayForgeTests;
+			sourceTree = "<group>";
+		};
+		2B3FD2292B453672003F3DC0 /* DayForgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B3FD22A2B453672003F3DC0 /* DayForgeUITests.swift */,
+				2B3FD22C2B453672003F3DC0 /* DayForgeUITestsLaunchTests.swift */,
+			);
+			path = DayForgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B3FD20B2B453670003F3DC0 /* DayForge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3FD2302B453672003F3DC0 /* Build configuration list for PBXNativeTarget "DayForge" */;
+			buildPhases = (
+				2B3FD2082B453670003F3DC0 /* Sources */,
+				2B3FD2092B453670003F3DC0 /* Frameworks */,
+				2B3FD20A2B453670003F3DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayForge;
+			productName = DayForge;
+			productReference = 2B3FD20C2B453670003F3DC0 /* DayForge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B3FD21B2B453672003F3DC0 /* DayForgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3FD2332B453672003F3DC0 /* Build configuration list for PBXNativeTarget "DayForgeTests" */;
+			buildPhases = (
+				2B3FD2182B453672003F3DC0 /* Sources */,
+				2B3FD2192B453672003F3DC0 /* Frameworks */,
+				2B3FD21A2B453672003F3DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B3FD21E2B453672003F3DC0 /* PBXTargetDependency */,
+			);
+			name = DayForgeTests;
+			productName = DayForgeTests;
+			productReference = 2B3FD21C2B453672003F3DC0 /* DayForgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B3FD2252B453672003F3DC0 /* DayForgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3FD2362B453672003F3DC0 /* Build configuration list for PBXNativeTarget "DayForgeUITests" */;
+			buildPhases = (
+				2B3FD2222B453672003F3DC0 /* Sources */,
+				2B3FD2232B453672003F3DC0 /* Frameworks */,
+				2B3FD2242B453672003F3DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B3FD2282B453672003F3DC0 /* PBXTargetDependency */,
+			);
+			name = DayForgeUITests;
+			productName = DayForgeUITests;
+			productReference = 2B3FD2262B453672003F3DC0 /* DayForgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B3FD2042B453670003F3DC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					2B3FD20B2B453670003F3DC0 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					2B3FD21B2B453672003F3DC0 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 2B3FD20B2B453670003F3DC0;
+					};
+					2B3FD2252B453672003F3DC0 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 2B3FD20B2B453670003F3DC0;
+					};
+				};
+			};
+			buildConfigurationList = 2B3FD2072B453670003F3DC0 /* Build configuration list for PBXProject "DayForge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B3FD2032B453670003F3DC0;
+			productRefGroup = 2B3FD20D2B453670003F3DC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B3FD20B2B453670003F3DC0 /* DayForge */,
+				2B3FD21B2B453672003F3DC0 /* DayForgeTests */,
+				2B3FD2252B453672003F3DC0 /* DayForgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B3FD20A2B453670003F3DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3FD2172B453672003F3DC0 /* Preview Assets.xcassets in Resources */,
+				2B3FD2142B453672003F3DC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3FD21A2B453672003F3DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3FD2242B453672003F3DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B3FD2082B453670003F3DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3FD2122B453670003F3DC0 /* ContentView.swift in Sources */,
+				2B3FD2102B453670003F3DC0 /* DayForgeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3FD2182B453672003F3DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3FD2212B453672003F3DC0 /* DayForgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3FD2222B453672003F3DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3FD22D2B453672003F3DC0 /* DayForgeUITestsLaunchTests.swift in Sources */,
+				2B3FD22B2B453672003F3DC0 /* DayForgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B3FD21E2B453672003F3DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B3FD20B2B453670003F3DC0 /* DayForge */;
+			targetProxy = 2B3FD21D2B453672003F3DC0 /* PBXContainerItemProxy */;
+		};
+		2B3FD2282B453672003F3DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B3FD20B2B453670003F3DC0 /* DayForge */;
+			targetProxy = 2B3FD2272B453672003F3DC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B3FD22E2B453672003F3DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B3FD22F2B453672003F3DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B3FD2312B453672003F3DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DayForge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menacingmonkeys.DayForge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B3FD2322B453672003F3DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DayForge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menacingmonkeys.DayForge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B3FD2342B453672003F3DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menacingmonkeys.DayForgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayForge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DayForge";
+			};
+			name = Debug;
+		};
+		2B3FD2352B453672003F3DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menacingmonkeys.DayForgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayForge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DayForge";
+			};
+			name = Release;
+		};
+		2B3FD2372B453672003F3DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menacingmonkeys.DayForgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayForge;
+			};
+			name = Debug;
+		};
+		2B3FD2382B453672003F3DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menacingmonkeys.DayForgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayForge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B3FD2072B453670003F3DC0 /* Build configuration list for PBXProject "DayForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3FD22E2B453672003F3DC0 /* Debug */,
+				2B3FD22F2B453672003F3DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3FD2302B453672003F3DC0 /* Build configuration list for PBXNativeTarget "DayForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3FD2312B453672003F3DC0 /* Debug */,
+				2B3FD2322B453672003F3DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3FD2332B453672003F3DC0 /* Build configuration list for PBXNativeTarget "DayForgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3FD2342B453672003F3DC0 /* Debug */,
+				2B3FD2352B453672003F3DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3FD2362B453672003F3DC0 /* Build configuration list for PBXNativeTarget "DayForgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3FD2372B453672003F3DC0 /* Debug */,
+				2B3FD2382B453672003F3DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B3FD2042B453670003F3DC0 /* Project object */;
+}
