@@ -8,6 +8,11 @@
 	<array>
 		<string>Roboto-Regular.ttf</string>
 		<string>PaytoneOne-Regular.ttf</string>
+		<string>Poppins-Black.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-ExtraBold.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string></string>
 	</array>
 </dict>
 </plist>

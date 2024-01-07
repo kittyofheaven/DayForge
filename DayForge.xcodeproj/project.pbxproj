@@ -37,6 +37,15 @@
 		2B3FD2702B45D083003F3DC0 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD26F2B45D083003F3DC0 /* QuizView.swift */; };
 		2B3FD2722B45D08D003F3DC0 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD2712B45D08D003F3DC0 /* ChartsView.swift */; };
 		2B3FD2742B45D098003F3DC0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD2732B45D098003F3DC0 /* ProfileView.swift */; };
+		2B3FD2782B46E7E0003F3DC0 /* JournalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD2772B46E7E0003F3DC0 /* JournalModel.swift */; };
+		2BFEC5FE2B4AE10400C567D5 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEC5FD2B4AE10400C567D5 /* ProfileViewModel.swift */; };
+		2BFEC6042B4AF4F000C567D5 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEC5FF2B4AF4F000C567D5 /* Poppins-Regular.ttf */; };
+		2BFEC6052B4AF4F000C567D5 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEC6002B4AF4F000C567D5 /* Poppins-Medium.ttf */; };
+		2BFEC6062B4AF4F000C567D5 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEC6012B4AF4F000C567D5 /* Poppins-ExtraBold.ttf */; };
+		2BFEC6072B4AF4F000C567D5 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEC6022B4AF4F000C567D5 /* Poppins-Black.ttf */; };
+		2BFEC6082B4AF4F000C567D5 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEC6032B4AF4F000C567D5 /* Poppins-Bold.ttf */; };
+		2BFEC60A2B4B133400C567D5 /* MoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEC6092B4B133400C567D5 /* MoodModel.swift */; };
+		2BFEC60C2B4B13CE00C567D5 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEC60B2B4B13CE00C567D5 /* QuizViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +98,15 @@
 		2B3FD26F2B45D083003F3DC0 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		2B3FD2712B45D08D003F3DC0 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		2B3FD2732B45D098003F3DC0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2B3FD2772B46E7E0003F3DC0 /* JournalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalModel.swift; sourceTree = "<group>"; };
+		2BFEC5FD2B4AE10400C567D5 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		2BFEC5FF2B4AF4F000C567D5 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		2BFEC6002B4AF4F000C567D5 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		2BFEC6012B4AF4F000C567D5 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2BFEC6022B4AF4F000C567D5 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		2BFEC6032B4AF4F000C567D5 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		2BFEC6092B4B133400C567D5 /* MoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodModel.swift; sourceTree = "<group>"; };
+		2BFEC60B2B4B13CE00C567D5 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +222,8 @@
 				2B3FD2512B454816003F3DC0 /* LoginViewModel.swift */,
 				2B3FD2522B454816003F3DC0 /* RegisterViewModel.swift */,
 				2B3FD23D2B45371F003F3DC0 /* SplashScreenViewModel.swift */,
+				2BFEC5FD2B4AE10400C567D5 /* ProfileViewModel.swift */,
+				2BFEC60B2B4B13CE00C567D5 /* QuizViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -211,6 +231,11 @@
 		2B3FD23F2B453EC1003F3DC0 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				2BFEC6022B4AF4F000C567D5 /* Poppins-Black.ttf */,
+				2BFEC6032B4AF4F000C567D5 /* Poppins-Bold.ttf */,
+				2BFEC6012B4AF4F000C567D5 /* Poppins-ExtraBold.ttf */,
+				2BFEC6002B4AF4F000C567D5 /* Poppins-Medium.ttf */,
+				2BFEC5FF2B4AF4F000C567D5 /* Poppins-Regular.ttf */,
 				2B3FD2442B454216003F3DC0 /* PaytoneOne-Regular.ttf */,
 				2B3FD2412B453F1F003F3DC0 /* Roboto-Regular.ttf */,
 			);
@@ -221,6 +246,8 @@
 			isa = PBXGroup;
 			children = (
 				2B3FD25C2B45493A003F3DC0 /* UserModel.swift */,
+				2B3FD2772B46E7E0003F3DC0 /* JournalModel.swift */,
+				2BFEC6092B4B133400C567D5 /* MoodModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -348,9 +375,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B3FD2422B453F1F003F3DC0 /* Roboto-Regular.ttf in Resources */,
+				2BFEC6062B4AF4F000C567D5 /* Poppins-ExtraBold.ttf in Resources */,
 				2B3FD2172B453672003F3DC0 /* Preview Assets.xcassets in Resources */,
+				2BFEC6042B4AF4F000C567D5 /* Poppins-Regular.ttf in Resources */,
+				2BFEC6072B4AF4F000C567D5 /* Poppins-Black.ttf in Resources */,
 				2B3FD2622B45B5D0003F3DC0 /* GoogleService-Info.plist in Resources */,
 				2B3FD2142B453672003F3DC0 /* Assets.xcassets in Resources */,
+				2BFEC6082B4AF4F000C567D5 /* Poppins-Bold.ttf in Resources */,
+				2BFEC6052B4AF4F000C567D5 /* Poppins-Medium.ttf in Resources */,
 				2B3FD2662B45C2B5003F3DC0 /* .gitignore in Resources */,
 				2B3FD2452B454216003F3DC0 /* PaytoneOne-Regular.ttf in Resources */,
 			);
@@ -378,11 +410,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B3FD24E2B454807003F3DC0 /* AuthView.swift in Sources */,
+				2BFEC60C2B4B13CE00C567D5 /* QuizViewModel.swift in Sources */,
 				2B3FD2642B45B9C7003F3DC0 /* HomeView.swift in Sources */,
 				2B3FD24D2B454807003F3DC0 /* LoginView.swift in Sources */,
 				2B3FD2122B453670003F3DC0 /* ContentView.swift in Sources */,
 				2B3FD2492B454773003F3DC0 /* HeadingView.swift in Sources */,
 				2B3FD2722B45D08D003F3DC0 /* ChartsView.swift in Sources */,
+				2BFEC5FE2B4AE10400C567D5 /* ProfileViewModel.swift in Sources */,
 				2B3FD2552B454816003F3DC0 /* RegisterViewModel.swift in Sources */,
 				2B3FD23E2B45371F003F3DC0 /* SplashScreenViewModel.swift in Sources */,
 				2B3FD24F2B454807003F3DC0 /* RegisterView.swift in Sources */,
@@ -390,11 +424,13 @@
 				2B3FD26E2B45CFAC003F3DC0 /* JournalView.swift in Sources */,
 				2B3FD26C2B45CECB003F3DC0 /* MainView.swift in Sources */,
 				2B3FD2742B45D098003F3DC0 /* ProfileView.swift in Sources */,
+				2B3FD2782B46E7E0003F3DC0 /* JournalModel.swift in Sources */,
 				2B3FD2702B45D083003F3DC0 /* QuizView.swift in Sources */,
 				2B3FD25F2B454962003F3DC0 /* Extensions.swift in Sources */,
 				2B3FD23C2B4536C8003F3DC0 /* SplashScreenView.swift in Sources */,
 				2B3FD2542B454816003F3DC0 /* LoginViewModel.swift in Sources */,
 				2B3FD25D2B45493A003F3DC0 /* UserModel.swift in Sources */,
+				2BFEC60A2B4B133400C567D5 /* MoodModel.swift in Sources */,
 				2B3FD2532B454816003F3DC0 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

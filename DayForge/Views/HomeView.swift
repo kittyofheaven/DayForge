@@ -9,7 +9,16 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Home View")
+        HStack {
+            VStack(alignment: .leading) {
+                Text("Hello, User!")
+                    .font(.title)
+                Text("How do you feel today?")
+                Spacer()
+            }
+            Spacer()
+        }
+        .padding()
     }
 }
 
