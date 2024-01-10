@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F2A05143-F1A2-411C-854A-2EC6BDA0DBC6"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DayForge/Views/SplashScreenView.swift"
@@ -18,6 +18,22 @@
             endingLineNumber = "54"
             landmarkName = "SplashScreenView"
             landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF621AF2-DDF2-48BE-9AA5-EE6D1C44B5F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../var/folders/vp/bhn2ft4x2tj_vswr_j8m6bk00000gn/T/swift-generated-sources/@__swiftmacro_8DayForge33_28B04FB0CAF2FACBE1E91CDD23B1CB80Ll7PreviewfMf_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "$s8DayForge33_28B04FB0CAF2FACBE1E91CDD23B1CB80Ll7PreviewfMf_15PreviewRegistryfMu_"
+            landmarkType = "37">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

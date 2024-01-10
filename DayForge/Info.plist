@@ -12,7 +12,8 @@
 		<string>Poppins-Bold.ttf</string>
 		<string>Poppins-ExtraBold.ttf</string>
 		<string>Poppins-Regular.ttf</string>
-		<string></string>
+		<string>Inter-Bold.ttf</string>
+		<string>Inter-Regular.ttf</string>
 	</array>
 </dict>
 </plist>

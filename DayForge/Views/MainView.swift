@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MainView: View {
+    @AppStorage("uid") var userID: String = ""
 //    @ViewBuilder
     var body: some View {
         TabView {
@@ -15,7 +16,7 @@ struct MainView: View {
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
-            JournalView()
+            JournalView(userId: userID)
                 .tabItem {
                     Label("Journal", systemImage: "book.closed")
                 }

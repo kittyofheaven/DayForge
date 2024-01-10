@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 extension Encodable {
     func asDictionary() -> [String: Any] {
@@ -21,3 +22,16 @@ extension Encodable {
         }
     }
 }
+
+extension Binding where Value == String {
+    func maxLength(_ limit: Int) -> Self {
+        if self.wrappedValue.count > limit {
+            DispatchQueue.main.async {
+                self.wrappedValue = String(self.wrappedValue.dropLast())
+            }
+        }
+        return self
+    }
+}
+
+

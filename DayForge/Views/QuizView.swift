@@ -19,7 +19,7 @@ struct QuizView: View {
                     // How are your feelings?
                     VStack {
                         
-                        Text("How are your feelings?")
+                        Text("How do you feel today?")
                             .font(.custom("Poppins-Bold", size: 20))
                             .foregroundStyle(Color("STitleColor"))
                             .multilineTextAlignment(.center)

@@ -7,10 +7,11 @@
 
 import Foundation
 
-struct Journal: Codable {
+struct Journal: Codable, Identifiable {
     let id: String
     let uid: String
     let title: String
     let content: String
+    let mentalIssuesFlag: Bool
     let updated: TimeInterval
 }
