@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B391E9B2B4F50C6000585D7 /* EditJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B391E9A2B4F50C6000585D7 /* EditJournalView.swift */; };
+		2B391E9F2B504EE1000585D7 /* ChartsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B391E9E2B504EE1000585D7 /* ChartsViewModel.swift */; };
 		2B3FD2102B453670003F3DC0 /* DayForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD20F2B453670003F3DC0 /* DayForgeApp.swift */; };
 		2B3FD2122B453670003F3DC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD2112B453670003F3DC0 /* ContentView.swift */; };
 		2B3FD2142B453672003F3DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3FD2132B453672003F3DC0 /* Assets.xcassets */; };
@@ -74,6 +76,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B391E9A2B4F50C6000585D7 /* EditJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournalView.swift; sourceTree = "<group>"; };
+		2B391E9E2B504EE1000585D7 /* ChartsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewModel.swift; sourceTree = "<group>"; };
 		2B3FD20C2B453670003F3DC0 /* DayForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3FD20F2B453670003F3DC0 /* DayForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForgeApp.swift; sourceTree = "<group>"; };
 		2B3FD2112B453670003F3DC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -229,6 +233,7 @@
 				2B3FD2732B45D098003F3DC0 /* ProfileView.swift */,
 				2BCC69BE2B4D8BAF0072BC24 /* JournalView.swift */,
 				2BCC69C02B4D8D460072BC24 /* JournalItemView.swift */,
+				2B391E9A2B4F50C6000585D7 /* EditJournalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 				2BCC69BC2B4D88E00072BC24 /* NewJournalViewModel.swift */,
 				2BCC69C22B4D8D550072BC24 /* JournalItemViewModel.swift */,
 				2BCC69CC2B4F02E80072BC24 /* JournalViewModel.swift */,
+				2B391E9E2B504EE1000585D7 /* ChartsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -443,10 +449,12 @@
 				2B3FD24D2B454807003F3DC0 /* LoginView.swift in Sources */,
 				2B3FD2122B453670003F3DC0 /* ContentView.swift in Sources */,
 				2B3FD2492B454773003F3DC0 /* HeadingView.swift in Sources */,
+				2B391E9B2B4F50C6000585D7 /* EditJournalView.swift in Sources */,
 				2B3FD2722B45D08D003F3DC0 /* ChartsView.swift in Sources */,
 				2BFEC5FE2B4AE10400C567D5 /* ProfileViewModel.swift in Sources */,
 				2B3FD2552B454816003F3DC0 /* RegisterViewModel.swift in Sources */,
 				2B3FD23E2B45371F003F3DC0 /* SplashScreenViewModel.swift in Sources */,
+				2B391E9F2B504EE1000585D7 /* ChartsViewModel.swift in Sources */,
 				2B3FD24F2B454807003F3DC0 /* RegisterView.swift in Sources */,
 				2B3FD2102B453670003F3DC0 /* DayForgeApp.swift in Sources */,
 				2B3FD26E2B45CFAC003F3DC0 /* NewJournalView.swift in Sources */,

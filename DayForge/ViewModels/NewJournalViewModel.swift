@@ -28,12 +28,6 @@ class NewJournalViewModel: ObservableObject {
         }
     }
     
-    private func reset() {
-        title = ""
-        content = ""
-    }
-    
-    
     func logJournal(){
         let newId = UUID().uuidString
         
@@ -44,8 +38,6 @@ class NewJournalViewModel: ObservableObject {
                                  mentalIssuesFlag: false,
                                  updated: Date().timeIntervalSince1970
         )
-        
-        reset()
         
         let db = Firestore.firestore()
         

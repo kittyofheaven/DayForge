@@ -38,6 +38,7 @@ struct JournalItemView: View {
                     .font(.custom("Poppins-Regular", size: 16))
             }
             .padding(.leading, 35)
+            .foregroundStyle(Color.black)
             
             
             
@@ -45,6 +46,7 @@ struct JournalItemView: View {
                 Text(item.title)
                     .font(.custom("Poppins-Regular", size: 20))
                     .foregroundStyle(.white)
+                    .multilineTextAlignment(.leading)
                 Text(item.content.count < 50 ? item.content.prefix(50) : item.content.prefix(50) + " ...")
                     .font(.custom("Poppins-Regular", size: 14))
                     .multilineTextAlignment(.leading)

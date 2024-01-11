@@ -6,22 +6,44 @@
 //
 
 import SwiftUI
+import Charts
 
 struct ChartsView: View {
+    @ObservedObject var viewModel = ChartsViewModel()
+    
     var body: some View {
         NavigationView {
             HStack {
-                VStack {
-                    Text("Mood 1")
-                    Text("Mood 2")
+                Text(viewModel.returnString())
+                
+                ScrollView {
                     
-                    Spacer()
+                    ForEach(viewModel.moods) { mood in
+                        Text(mood.dayAndDate())
+                    }
+                
+                    
+                    
                 }
+                .padding()
                 Spacer()
             }
-            .padding()
+            .background {
+                Image("ChartsBg")
+                    .resizable()
+                    .edgesIgnoringSafeArea(.bottom)
+                    .scaledToFit()
+            }
             .navigationTitle("Charts")
         }
+        .onAppear {
+            viewModel.fetchData()
+        }
+    }
+    
+    
+    init(){
+        viewModel.fetchData()
     }
 }
 

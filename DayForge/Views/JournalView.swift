@@ -13,7 +13,7 @@ struct JournalView: View {
     @FirestoreQuery var journals: [Journal]
     
     init(userId: String) {
-        self._journals = FirestoreQuery(collectionPath: "users/\(userId)/journals")
+        self._journals = FirestoreQuery(collectionPath: "users/\(userId)/journals", predicates: [.orderBy("updated", true)])
     }
     
     var body: some View {
@@ -25,15 +25,26 @@ struct JournalView: View {
                 ScrollView {
                         VStack {
                             ForEach(journals) { journal in
-                                JournalItemView(item: journal)
-                                    .padding(.top)
-                                    .swipeActions {
-                                        Button(action: {
-                                            
-                                        }, label: {
-                                            
-                                        })
-                                    }
+                                Button(action: {
+                                    viewModel.editedJournalId = journal.id
+                                    viewModel.editedTitle = journal.title
+                                    viewModel.editedContent = journal.content
+                                    viewModel.editTimeSince1970 = journal.updated
+                                    viewModel.showingEditJournalView = true
+                                }, label: {
+                                    
+                                    JournalItemView(item: journal)
+                                        .padding(.top)
+                                        .swipeActions {
+                                            Button(action: {
+                                                
+                                            }, label: {
+                                                
+                                            })
+                                        }
+                                    
+                                })
+                                
                                 
                             }
                             
@@ -53,6 +64,9 @@ struct JournalView: View {
                 }
                 .sheet(isPresented: $viewModel.showingNewJournalView, content: {
                     NewJournalView(newJournalPresented: $viewModel.showingNewJournalView)
+                })
+                .sheet(isPresented: $viewModel.showingEditJournalView, content: {
+                    EditJournalView(editJournalPresented: $viewModel.showingEditJournalView, journalViewModel: viewModel)
                 })
                 .background {
                     Spacer()
