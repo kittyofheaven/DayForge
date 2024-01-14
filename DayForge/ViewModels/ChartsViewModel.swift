@@ -30,27 +30,33 @@ class ChartsViewModel: ObservableObject {
                     self.moods = snapshot.documents.map { d in
                         return Mood(id: d.documentID,
                                     mood: d["mood"] as? Int ?? 0,
-                                    smoke: d["cigar"] as? Int ?? 0,
+                                    smoke: d["smoke"] as? Int ?? 0,
                                     alcohol: d["alcohol"] as? Int ?? 0,
                                     selfharm: d["selfharm"] as? Int ?? 0,
                                     added: d["added"] as? Double ?? 0)
                     }
                     // Sort the moods array based on added in ascending order
-                    self.sortMoodsAscending()
+                    self.sortMoodsDescending()
                 }
             }
         }
     }
     
     // Function to sort moods array based on added in ascending order
-    func sortMoodsAscending() {
-        moods.sort { $0.added < $1.added }
+    func sortMoodsDescending() {
+        moods.sort { $0.added > $1.added }
     }
     
     func returnString() -> String {
-        print(moods)
+//        print(moods)
         return "hello"
     }
     
+    func thirtyMood() -> [Mood] {
+        // Ensure that moods array is sorted before retrieving the first 30 elements
+//        print(moods)
+        let sortedMoods = moods.prefix(30)
+        return Array(sortedMoods.reversed())
+    }
     
 }

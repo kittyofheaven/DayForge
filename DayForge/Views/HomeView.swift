@@ -9,16 +9,14 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        HStack {
-            VStack(alignment: .leading) {
-                Text("Hello, User!")
-                    .font(.title)
-                Text("How do you feel today?")
-                Spacer()
+        NavigationView {
+            HStack {
+                ScrollView {
+                    Text("Content")
+                }
             }
-            Spacer()
+            .navigationTitle("Welcome Home!")
         }
-        .padding()
     }
 }
 

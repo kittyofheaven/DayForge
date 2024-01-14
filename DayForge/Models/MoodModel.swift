@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Mood: Codable, Identifiable {
+struct Mood: Codable, Identifiable, Equatable {
     let id: String
     let mood: Int
     let smoke: Int

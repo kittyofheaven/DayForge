@@ -417,7 +417,7 @@ struct QuizView: View {
                 
             }
             .padding()
-            .navigationTitle("Today Mood Journal")
+            .navigationTitle("Today's Mood Journal")
         }
     }
 }
