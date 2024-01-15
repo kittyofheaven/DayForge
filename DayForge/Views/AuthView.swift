@@ -14,8 +14,12 @@ struct AuthView: View {
         
         if viewModel.currentView == "login" {
             LoginView(authViewModel: viewModel)
-        } else {
+        } else if viewModel.currentView == "second" {
+            SecondWelcomePageView(authViewModel: viewModel)
+        } else if viewModel.currentView == "register" {
             RegisterView(authViewModel: viewModel)
+        } else {
+            FirstWelcomePageView(authViewModel: viewModel)
         }
     }
 }

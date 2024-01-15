@@ -8,7 +8,7 @@
 import Foundation
 
 class AuthViewModel: ObservableObject {
-    @Published var currentView: String =  "login"
+    @Published var currentView: String =  "first"
     
     func changeCurrentViewtoRegister(){
         currentView = "register"
@@ -18,4 +18,7 @@ class AuthViewModel: ObservableObject {
         currentView = "login"
     }
     
+    func changeCurrentViewtoSecondWelcomePage(){
+        currentView = "second"
+    }
 }
