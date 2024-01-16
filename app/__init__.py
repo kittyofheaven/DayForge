@@ -57,9 +57,9 @@ def index():
 def predict_sentiment():
     try:
         data = request.json
-        print(data)
+        # print(data)
         texts = data.get('texts')
-        print(texts)
+        # print(texts)
 
         if not texts:
             return jsonify({"error": "Texts not provided"}), 400
@@ -79,5 +79,5 @@ def predict_sentiment():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)

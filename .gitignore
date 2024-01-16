@@ -1,3 +1,5 @@
 Others/GoogleService-Info.plist
 gitignore
 .gitignore
+env
+.env
