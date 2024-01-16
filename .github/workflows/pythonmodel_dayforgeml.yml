@@ -29,10 +29,7 @@ jobs:
       
       - name: Install dependencies
         run: pip install -r requirements.txt
-
-      - name: Install transformers
-        run:  !pip install transformers
-
+        
       - name: Install transformers
         run:  pip install transformers
         
