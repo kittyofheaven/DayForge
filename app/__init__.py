@@ -1,3 +1,6 @@
+import sys
+sys.path.append('/site/wwwroot/lib')
+
 from flask import Flask, request, jsonify
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from scipy.special import softmax
