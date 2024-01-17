@@ -30,26 +30,14 @@ struct ProfileView: View {
                 .padding()
                 
                 Form {
-                    Button {
-                        // settings
-                    } label: {
-                        HStack {
-                            Image(systemName: "gear")
-                            Text("Settings")
-                            Spacer()
-                            Image(systemName: "line.diagonal.arrow")
-                        }
-                    }
-                    Button {
-                        // help
-                    } label: {
-                        HStack {
+                    Link(destination: URL(string: "https://github.com/kittyofheaven/DayForge")!, label: {        HStack {
                             Image(systemName: "questionmark.circle")
+                                .foregroundColor(.black)
                             Text("Help")
+                                .foregroundColor(.black)
                             Spacer()
-                            Image(systemName: "line.diagonal.arrow")
                         }
-                    }
+                    })
                     Button {
                         
                         withAnimation {
@@ -59,9 +47,9 @@ struct ProfileView: View {
                     } label: {
                         HStack {
                             Image(systemName: "rectangle.portrait.and.arrow.right")
-                                .foregroundStyle(Color.red)
+                                .foregroundColor(.red)
                             Text("Log Out")
-                                .foregroundStyle(Color.red)
+                                .foregroundColor(.red)
                             Spacer()
                         }
                     }

@@ -22,6 +22,15 @@ struct JournalView: View {
                 Color("JournalBgColor")
                     .ignoresSafeArea()
                 
+                VStack{
+                    Spacer()
+                    Image("JournalBg")
+                        .resizable()
+                        .ignoresSafeArea()
+                        .scaledToFit()
+                }
+
+                
                 ScrollView {
                         VStack {
                             ForEach(journals) { journal in
@@ -68,16 +77,7 @@ struct JournalView: View {
                 .sheet(isPresented: $viewModel.showingEditJournalView, content: {
                     EditJournalView(editJournalPresented: $viewModel.showingEditJournalView, journalViewModel: viewModel)
                 })
-                .background {
-                    Spacer()
-                    Image("JournalBg")
-                        .resizable()
-                        .edgesIgnoringSafeArea(.bottom)
-                        .scaledToFit()
-                }
                 .toolbarBackground(Color("JournalBgColor"))
-                
-                
                 
             }
         }
@@ -87,4 +87,5 @@ struct JournalView: View {
 #Preview {
 //    @AppStorage("uid") var userID: String = ""
     JournalView(userId: "t1mRTcYPVWbf7do28TQLGN8gFEG2")
+//    JournalView(userId: "DiSGTrObVAawouloexPRFwTaFNW2")
 }
