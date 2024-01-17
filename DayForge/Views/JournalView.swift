@@ -14,6 +14,8 @@ struct JournalView: View {
     
     init(userId: String) {
         self._journals = FirestoreQuery(collectionPath: "users/\(userId)/journals", predicates: [.orderBy("updated", true)])
+        
+//        viewModel.fetchData()
     }
     
     var body: some View {
@@ -80,6 +82,9 @@ struct JournalView: View {
                 .toolbarBackground(Color("JournalBgColor"))
                 
             }
+        }
+        .onAppear {
+            viewModel.fetchData()
         }
     }
 }

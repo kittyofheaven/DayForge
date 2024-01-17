@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1F14C7C72B56E8280008822E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14C7C62B56E8280008822E /* HomeViewModel.swift */; };
+		1FF2A4B52B5820E00056BEF1 /* MLPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2A4B42B5820E00056BEF1 /* MLPostModel.swift */; };
+		1FF2A4B72B5821590056BEF1 /* MLResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2A4B62B5821590056BEF1 /* MLResponseModel.swift */; };
 		2B22F5CE2B57DD9500E98D60 /* PsychologistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B22F5CD2B57DD9500E98D60 /* PsychologistView.swift */; };
 		2B22F5D02B57E15300E98D60 /* PsychologistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B22F5CF2B57E15300E98D60 /* PsychologistViewModel.swift */; };
 		2B391E9B2B4F50C6000585D7 /* EditJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B391E9A2B4F50C6000585D7 /* EditJournalView.swift */; };
@@ -82,6 +84,8 @@
 
 /* Begin PBXFileReference section */
 		1F14C7C62B56E8280008822E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1FF2A4B42B5820E00056BEF1 /* MLPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLPostModel.swift; sourceTree = "<group>"; };
+		1FF2A4B62B5821590056BEF1 /* MLResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLResponseModel.swift; sourceTree = "<group>"; };
 		2B22F5CD2B57DD9500E98D60 /* PsychologistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistView.swift; sourceTree = "<group>"; };
 		2B22F5CF2B57E15300E98D60 /* PsychologistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistViewModel.swift; sourceTree = "<group>"; };
 		2B391E9A2B4F50C6000585D7 /* EditJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournalView.swift; sourceTree = "<group>"; };
@@ -292,6 +296,8 @@
 				2B3FD25C2B45493A003F3DC0 /* UserModel.swift */,
 				2B3FD2772B46E7E0003F3DC0 /* JournalModel.swift */,
 				2BFEC6092B4B133400C567D5 /* MoodModel.swift */,
+				1FF2A4B42B5820E00056BEF1 /* MLPostModel.swift */,
+				1FF2A4B62B5821590056BEF1 /* MLResponseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -459,6 +465,7 @@
 				2BCC69CD2B4F02E90072BC24 /* JournalViewModel.swift in Sources */,
 				2BCC69BD2B4D88E00072BC24 /* NewJournalViewModel.swift in Sources */,
 				2BE192382B5544C000D82ADF /* FirstWelcomePageView.swift in Sources */,
+				1FF2A4B72B5821590056BEF1 /* MLResponseModel.swift in Sources */,
 				2B3FD24E2B454807003F3DC0 /* AuthView.swift in Sources */,
 				2BFEC60C2B4B13CE00C567D5 /* QuizViewModel.swift in Sources */,
 				2BE1923A2B55488B00D82ADF /* SecondWelcomePageView.swift in Sources */,
@@ -480,6 +487,7 @@
 				2B3FD26C2B45CECB003F3DC0 /* MainView.swift in Sources */,
 				2B3FD2742B45D098003F3DC0 /* ProfileView.swift in Sources */,
 				2BCC69BF2B4D8BAF0072BC24 /* JournalView.swift in Sources */,
+				1FF2A4B52B5820E00056BEF1 /* MLPostModel.swift in Sources */,
 				2BCC69C12B4D8D460072BC24 /* JournalItemView.swift in Sources */,
 				2B3FD2782B46E7E0003F3DC0 /* JournalModel.swift in Sources */,
 				2B22F5CE2B57DD9500E98D60 /* PsychologistView.swift in Sources */,

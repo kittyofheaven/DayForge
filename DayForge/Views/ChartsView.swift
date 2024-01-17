@@ -103,19 +103,15 @@ struct ChartsView: View {
             }
             
         }
-        
         .onAppear {
             viewModel.fetchData()
         }
-        
     }
-    
-    
     init(){
         viewModel.fetchData()
     }
 }
 
-#Preview {
-    ChartsView()
-}
+//#Preview {
+//    ChartsView()
+//}

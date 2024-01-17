@@ -70,7 +70,16 @@ struct JournalItemView: View {
                     .shadow(radius: 20, x: 0, y: 10)
                 Rectangle()
                     .cornerRadius(10, corners: [.topRight, .bottomRight])
-                    .foregroundStyle(Color.gray)
+                    .foregroundColor({
+                                    switch item.mentalIssuesFlag {
+                                    case "negative":
+                                        return Color.red
+                                    case "positive":
+                                        return Color.yellow
+                                    default:
+                                        return Color.gray
+                                    }
+                                }())
                     .opacity(0.5)
                     .shadow(radius: 20, x: 0, y: 20)
             }
@@ -81,5 +90,5 @@ struct JournalItemView: View {
 }
 
 #Preview {
-    JournalItemView(item: .init(id: "id", uid: "uid", title: "title", content: "content lorem ipsum dolor sit amet wipe my ass you bitch", mentalIssuesFlag: false, updated: 1704906995.637922))
+    JournalItemView(item: .init(id: "id", uid: "uid", title: "title", content: "content lorem ipsum dolor sit amet wipe my ass you bitch", mentalIssuesFlag: "negative", updated: 1704906995.637922))
 }

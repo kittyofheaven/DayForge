@@ -12,6 +12,6 @@ struct Journal: Codable, Identifiable {
     let uid: String
     let title: String
     let content: String
-    let mentalIssuesFlag: Bool
+    let mentalIssuesFlag: String
     let updated: TimeInterval
 }

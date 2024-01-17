@@ -17,7 +17,7 @@ class ChartsViewModel: ObservableObject {
     
     func fetchData(){
         let db = Firestore.firestore()
-        db.collection("users/t1mRTcYPVWbf7do28TQLGN8gFEG2/moodLog").getDocuments { snapshot, error in
+        db.collection("users/\(userID)/moodLog").getDocuments { snapshot, error in
             //handle error
 //            guard error==nil else {
 //                print(error as Any)

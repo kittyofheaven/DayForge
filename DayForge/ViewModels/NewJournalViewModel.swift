@@ -35,7 +35,7 @@ class NewJournalViewModel: ObservableObject {
                                  uid: userID,
                                  title: title,
                                  content: content,
-                                 mentalIssuesFlag: false,
+                                 mentalIssuesFlag: "waiting",
                                  updated: Date().timeIntervalSince1970
         )
         
