@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F14C7C72B56E8280008822E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14C7C62B56E8280008822E /* HomeViewModel.swift */; };
 		2B391E9B2B4F50C6000585D7 /* EditJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B391E9A2B4F50C6000585D7 /* EditJournalView.swift */; };
 		2B391E9F2B504EE1000585D7 /* ChartsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B391E9E2B504EE1000585D7 /* ChartsViewModel.swift */; };
 		2B3FD2102B453670003F3DC0 /* DayForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD20F2B453670003F3DC0 /* DayForgeApp.swift */; };
@@ -79,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F14C7C62B56E8280008822E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		2B391E9A2B4F50C6000585D7 /* EditJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournalView.swift; sourceTree = "<group>"; };
 		2B391E9E2B504EE1000585D7 /* ChartsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewModel.swift; sourceTree = "<group>"; };
 		2B3FD20C2B453670003F3DC0 /* DayForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -260,6 +262,7 @@
 				2BCC69C22B4D8D550072BC24 /* JournalItemViewModel.swift */,
 				2BCC69CC2B4F02E80072BC24 /* JournalViewModel.swift */,
 				2B391E9E2B504EE1000585D7 /* ChartsViewModel.swift */,
+				1F14C7C62B56E8280008822E /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				2B3FD2552B454816003F3DC0 /* RegisterViewModel.swift in Sources */,
 				2B3FD23E2B45371F003F3DC0 /* SplashScreenViewModel.swift in Sources */,
 				2B391E9F2B504EE1000585D7 /* ChartsViewModel.swift in Sources */,
+				1F14C7C72B56E8280008822E /* HomeViewModel.swift in Sources */,
 				2B3FD24F2B454807003F3DC0 /* RegisterView.swift in Sources */,
 				2B3FD2102B453670003F3DC0 /* DayForgeApp.swift in Sources */,
 				2B3FD26E2B45CFAC003F3DC0 /* NewJournalView.swift in Sources */,
@@ -571,7 +575,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -628,7 +632,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -646,6 +650,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DayForge/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Y88T94JYC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DayForge/Info.plist;
@@ -654,6 +659,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -675,6 +681,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DayForge/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Y88T94JYC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DayForge/Info.plist;
@@ -683,6 +690,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
