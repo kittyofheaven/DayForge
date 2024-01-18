@@ -28,50 +28,55 @@ struct QuizView: View {
                             
                             Button(action: {
                                 withAnimation {
+                                    viewModel.animateFrames(0)
                                     viewModel.moodPressed(0)
                                 }
                             }, label: {
-                                Image("mood0")
+                                Image("mood0-\(viewModel.currentFrame[0])")
                                     .resizable()
                                     .frame(width: 60, height: 60)
                             })
                             
                             Button(action: {
                                 withAnimation {
+                                    viewModel.animateFrames(1)
                                     viewModel.moodPressed(1)
                                 }
                             }, label: {
-                                Image("mood1")
+                                Image("mood1-\(viewModel.currentFrame[1])")
                                     .resizable()
                                     .frame(width: 60, height: 60)
                             })
                             
                             Button(action: {
                                 withAnimation {
+                                    viewModel.animateFrames(2)
                                     viewModel.moodPressed(2)
                                 }
                             }, label: {
-                                Image("mood2")
+                                Image("mood2-\(viewModel.currentFrame[2])")
                                     .resizable()
                                     .frame(width: 60, height: 60)
                             })
                             
                             Button(action: {
                                 withAnimation {
+                                    viewModel.animateFrames(3)
                                     viewModel.moodPressed(3)
                                 }
                             }, label: {
-                                Image("mood3")
+                                Image("mood3-\(viewModel.currentFrame[3])")
                                     .resizable()
                                     .frame(width: 60, height: 60)
                             })
                             
                             Button(action: {
-                                withAnimation {
+                                withAnimation() {
+                                    viewModel.animateFrames(4)
                                     viewModel.moodPressed(4)
                                 }
                             }, label: {
-                                Image("mood4")
+                                Image("mood4-\(viewModel.currentFrame[4])")
                                     .resizable()
                                     .frame(width: 60, height: 60)
                             })

@@ -25,13 +25,31 @@ class QuizViewModel: ObservableObject {
     @Published var selfharmButtonClicked: [Bool] = [false, false, false, false, false, false]
     @Published var selfharmValue: Int? = nil // default value
     
+    @Published var currentFrame:[Int] = [0,0,0,0,0]
+    private let totalFrames = 6
+    
     init(){}
+    
+    
+    func animateFrames(_ whatMood: Int) {
+        var frameCount = 0
+        _ = Timer.scheduledTimer(withTimeInterval: 0.25, repeats: true) { timer in
+            withAnimation (.easeIn(duration: 0.2)) {
+                self.currentFrame[whatMood] = frameCount
+            }
+            frameCount += 1
+            if frameCount == self.totalFrames {
+                timer.invalidate()
+            }
+        }
+    }
     
     // MOOD FUNCTION
     func moodPressReset() {
         errorMsg = ""
         moodButtonClicked = [false, false, false, false, false]
         moodValue = 0
+        currentFrame = [0,0,0,0,0]
     }
     
     func moodPressed(_ howMany: Int){
